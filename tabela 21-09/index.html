@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+<body>
+    <!-- TABELAS -->
+    <table>
+    <!-- Titulo da tabela -->
+    <caption>Lista de Growdevers</caption>
+
+    <!-- Linha -->
+    <tr>
+        <!-- Titulo mais importante -->
+        <th>Nome</th>
+        <!-- Célula -->
+        <td>Alexandre</td> 
+    </tr>
+    </table>
+
+    <table border="1" style="width: 100%;">
+        <colgroup> <!-- estilização -->
+            <col>
+            <col>
+            <col style="background-color:blue">
+        </colgroup>
+        <thead>            <!-- semantica pro cabeçalho da tabela -->
+            <style>
+                table, th, td{
+                    border: 1px solid black;/*espessura, tipo e cor*/
+                    padding: 5px; /*espaçamento interno*/
+                    border-collapse: collapse; /*recolher as bordas*/
+                }
+            </style>
+        <tr>
+            <th>Nome</th>  <!-- Coluna principal - categorias -->
+            <th>Sobrenome</th>
+            <th scope="colgroup">Idade</th>
+        </thead>
+        <tbody>             <!-- corpo da tabela -->
+        </tr>
+        <tr>
+            <td>João</td>   <!-- colunas -->
+            <td colspan="2">Silva</td>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>Alves</td>
+            <td rowspan="2">94</td>
+        </tr>
+        <tr>
+            
+            <td>Martins</td>
+            <td>80</td>
+        </tr>
+        </tbody>             
+        <tfoot>               <!-- rodapé da tabela -->
+        <tr>
+            <td colspan="3">Olá teste</td>
+        </tr>
+        </tfoot>
+    </table>
+    
+</body>
+</html>
