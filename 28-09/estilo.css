@@ -1,0 +1,19 @@
+.inline{
+    display: inline;
+    background-color: lightblue;
+    /* width e height não funcionam */
+    width: 100px;
+    height: 100px;
+}
+.block{
+    display: block;
+    background-color: lightblue;
+    width: 200px;
+    height: 200px;
+}
+.inline-block{
+    display: inline-block;
+    background-color: lightblue;
+    width: 200px;
+    height: 200px;
+}

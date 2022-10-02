@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+}
+
+#box1,
+#box2,
+#box3,
+#box4{
+    width: 200px;
+    height: 200px;
+    
+}
+
+#box1{
+background-color: blue;
+float: left;
+}
+
+#box2{
+background-color: red;
+float: right;
+}
+
+#box3{
+    background-color: gold;
+    float: right;
+}
+

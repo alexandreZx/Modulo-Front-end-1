@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: grey;
+}
+.relative{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    height: 98%;
+    width: 60%;
+    background-color: blue;
+    transform: translate(-50%, -50%);
+}
+.absolute{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.orangered{
+    background-color: orangered;
+    height: 75%;
+    width: 75%;
+}
+.black{
+    background-color: black;
+    height: 65%;
+    width: 65%;
+}
+.dark-green{
+    background-color: darkgreen;
+    height: 55%;
+    width: 55%;
+}
+.light-yellow{
+    background-color: lightyellow;
+    height: 45%;
+    width: 45%;
+}
